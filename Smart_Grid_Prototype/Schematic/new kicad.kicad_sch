@@ -7751,7 +7751,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5408/RELAY-1_FWD"
+		(property "Value" "1N5408/DIODE"
 			(at 38.608 83.82 90)
 			(effects
 				(font
@@ -7903,7 +7903,7 @@
 				)
 			)
 		)
-		(property "Value" "CKT_1_POWER_CON"
+		(property "Value" "RELAY_PS"
 			(at 77.47 69.85 0)
 			(effects
 				(font
@@ -8197,7 +8197,7 @@
 				)
 			)
 		)
-		(property "Value" "2kR"
+		(property "Value" "2k"
 			(at 176.53 149.86 90)
 			(effects
 				(font
@@ -8601,7 +8601,7 @@
 				)
 			)
 		)
-		(property "Value" "MODERATE_V"
+		(property "Value" "PC817"
 			(at 154.178 131.826 0)
 			(effects
 				(font
@@ -8820,7 +8820,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "1R"
 			(at 238.76 57.1499 0)
 			(effects
 				(font
@@ -8964,7 +8964,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5408/RELAY_FWD"
+		(property "Value" "1N5408/DIODE"
 			(at 33.528 119.38 90)
 			(effects
 				(font
@@ -9256,7 +9256,7 @@
 				)
 			)
 		)
-		(property "Value" "MIN_V"
+		(property "Value" "PC817"
 			(at 154.178 111.506 0)
 			(effects
 				(font
@@ -9468,7 +9468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150R"
 			(at 265.43 113.284 0)
 			(effects
 				(font
@@ -9536,7 +9536,7 @@
 				)
 			)
 		)
-		(property "Value" "MODERATE_V"
+		(property "Value" "PC817"
 			(at 156.972 171.704 0)
 			(effects
 				(font
@@ -9684,7 +9684,7 @@
 				)
 			)
 		)
-		(property "Value" "ZC563900"
+		(property "Value" "ESP8266"
 			(at 18.542 142.748 0)
 			(effects
 				(font
@@ -10027,7 +10027,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5kR"
+		(property "Value" "1.5k"
 			(at 176.53 135.89 90)
 			(effects
 				(font
@@ -10382,7 +10382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "1R"
 			(at 251.46 57.1499 0)
 			(effects
 				(font
@@ -10593,7 +10593,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 144.78 149.86 90)
 			(effects
 				(font
@@ -10660,7 +10660,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 100.838 187.452 90)
 			(effects
 				(font
@@ -10956,7 +10956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "1R"
 			(at 262.89 57.1499 0)
 			(effects
 				(font
@@ -11090,7 +11090,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 144.78 135.89 90)
 			(effects
 				(font
@@ -11667,7 +11667,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 139.7 189.23 90)
 			(effects
 				(font
@@ -11805,7 +11805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "1R"
 			(at 274.32 57.1499 0)
 			(effects
 				(font
@@ -11873,7 +11873,7 @@
 				)
 			)
 		)
-		(property "Value" "MIN_V"
+		(property "Value" "PC817"
 			(at 102.108 175.006 0)
 			(effects
 				(font
@@ -11950,7 +11950,7 @@
 				)
 			)
 		)
-		(property "Value" "LOAD_INDICATOR"
+		(property "Value" "LOAD_STATUS"
 			(at 265.938 71.882 0)
 			(effects
 				(font
@@ -12094,7 +12094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "1R"
 			(at 107.95 119.3799 0)
 			(effects
 				(font
@@ -12239,7 +12239,7 @@
 				)
 			)
 		)
-		(property "Value" "CKT_1_POWER_CON"
+		(property "Value" "RELAY_INT"
 			(at 71.12 105.41 0)
 			(effects
 				(font
@@ -12658,15 +12658,15 @@
 		(fields_autoplaced yes)
 		(uuid "bbed570f-1a75-4656-8c29-ea605486410c")
 		(property "Reference" "D3"
-			(at 62.23 29.1398 0)
+			(at 68.58 29.1398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GBU4A"
-			(at 62.23 31.6798 0)
+		(property "Value" "GBU4A/BRIDGE_RECT"
+			(at 68.58 31.6798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12806,7 +12806,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 144.78 109.22 90)
 			(effects
 				(font
@@ -13007,7 +13007,7 @@
 				)
 			)
 		)
-		(property "Value" "HIGH_V"
+		(property "Value" "PC817"
 			(at 154.178 152.146 0)
 			(effects
 				(font
@@ -13493,7 +13493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 161.29 48.2599 0)
 			(effects
 				(font
@@ -13629,7 +13629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 165.1 38.0999 0)
 			(effects
 				(font
