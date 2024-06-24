@@ -3656,10 +3656,6 @@
 		(uuid "2f4b5178-3020-4c93-bd23-73b1dd11963c")
 	)
 	(no_connect
-		(at 24.13 146.05)
-		(uuid "8a0e7b7c-279f-4abf-859b-a79a17604c57")
-	)
-	(no_connect
 		(at 24.13 171.45)
 		(uuid "a9cb30d2-333e-4975-974b-b89dabb58541")
 	)
@@ -5609,6 +5605,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 146.05) (xy 24.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9640956-6d59-440b-9455-0d4e44b36c40")
+	)
+	(wire
+		(pts
 			(xy 193.04 36.83) (xy 196.85 36.83)
 		)
 		(stroke
@@ -6554,6 +6560,17 @@
 			(justify right bottom)
 		)
 		(uuid "3c6c33b7-f1b6-4c2f-a341-1b93e1b38fb4")
+	)
+	(label "EXT_POWER"
+		(at 19.05 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "424d7740-9de7-485c-a4c1-8cc07caccdeb")
 	)
 	(label "1k_R"
 		(at 243.84 118.11 180)
@@ -11370,7 +11387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f450db5-42dd-484d-b93e-bf635ba9863c")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 199.136 39.37 0)
 			(effects
 				(font
@@ -11424,7 +11441,7 @@
 		(instances
 			(project "new kicad"
 				(path "/e03aa56c-38cd-4df1-a477-6f5e62efd874"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12520,7 +12537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0a1b025-58fb-4f2f-9152-206b4f192e84")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 199.136 26.67 0)
 			(effects
 				(font
@@ -12574,7 +12591,7 @@
 		(instances
 			(project "new kicad"
 				(path "/e03aa56c-38cd-4df1-a477-6f5e62efd874"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14239,7 +14256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f68ad5fb-6945-496b-bc8e-475188006cdc")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 195.834 87.884 90)
 			(effects
 				(font
@@ -14291,7 +14308,7 @@
 		(instances
 			(project "new kicad"
 				(path "/e03aa56c-38cd-4df1-a477-6f5e62efd874"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
