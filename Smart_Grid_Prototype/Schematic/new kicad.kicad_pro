@@ -535,12 +535,16 @@
       "Net-(J2-Pin_1)": "power",
       "Net-(J3-Pin_1)": "power",
       "Net-(J5-Pin_1)": "power",
+      "Net-(J6-Pin_1)": "power",
       "Net-(Q1-B)": "signal",
       "Net-(Q1-E)": "power",
       "Net-(Q2-B)": "signal",
       "Net-(Q3-E)": "power",
+      "Net-(R10-Pad1)": "signal",
       "Net-(R10-Pad2)": "signal",
       "Net-(R12-Pad1)": "signal",
+      "Net-(R12-Pad2)": "signal",
+      "Net-(R14-Pad1)": "signal",
       "Net-(R15-Pad2)": "signal",
       "Net-(R16-Pad1)": "signal",
       "Net-(R16-Pad2)": "signal",
@@ -548,9 +552,12 @@
       "Net-(R18-Pad2)": "signal",
       "Net-(R19-Pad2)": "signal",
       "Net-(R2-Pad2)": "signal",
+      "Net-(R20-Pad1)": "signal",
       "Net-(R20-Pad2)": "signal",
       "Net-(R21-Pad2)": "signal",
       "Net-(R22-Pad2)": "signal",
+      "Net-(R23-Pad2)": "signal",
+      "Net-(R24-Pad2)": "signal",
       "Net-(R3-Pad2)": "signal",
       "Net-(R4-Pad2)": "signal",
       "Net-(R5-Pad2)": "signal",
@@ -669,12 +676,28 @@
         "pattern": "/RELAY_IN"
       },
       {
-        "netclass": "signal",
+        "netclass": "power",
         "pattern": "/EXT_POWER"
       },
       {
         "netclass": "signal",
         "pattern": "/D8"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/CC1"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/CC2"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/<NO NET>"
       }
     ]
   },
