@@ -669,12 +669,28 @@
         "pattern": "/RELAY_IN"
       },
       {
-        "netclass": "signal",
+        "netclass": "power",
         "pattern": "/EXT_POWER"
       },
       {
         "netclass": "signal",
         "pattern": "/D8"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/CC1"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/CC2"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/<NO NET>"
       }
     ]
   },

@@ -3636,10 +3636,6 @@
 		(uuid "097359e9-6619-4c07-a678-d4c4ce3688f0")
 	)
 	(no_connect
-		(at 17.78 146.05)
-		(uuid "09ae9079-60b7-489d-a972-0f0bc20528d6")
-	)
-	(no_connect
 		(at 24.13 181.61)
 		(uuid "0bf8e25c-e96a-4839-bd62-b6aac0d205c2")
 	)
@@ -6586,6 +6582,17 @@
 			(justify left bottom)
 		)
 		(uuid "4469afa4-0b41-46f6-9d32-78e3e726be0d")
+	)
+	(label "EXT_POWER"
+		(at 17.78 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58245713-db22-4f8f-aa75-60ade781b639")
 	)
 	(label "D5"
 		(at 73.66 158.75 0)
