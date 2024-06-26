@@ -698,6 +698,10 @@
       {
         "netclass": "signal",
         "pattern": "/<NO NET>"
+      },
+      {
+        "netclass": "power",
+        "pattern": "VCC"
       }
     ]
   },
