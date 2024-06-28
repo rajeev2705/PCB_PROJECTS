@@ -181,6 +181,10 @@
         0.0,
         0.0,
         0.5,
+<<<<<<< HEAD
+=======
+        0.8,
+>>>>>>> TP_ADD_PCB
         1.4
       ],
       "tuning_pattern_settings": {
@@ -535,12 +539,24 @@
       "Net-(J2-Pin_1)": "power",
       "Net-(J3-Pin_1)": "power",
       "Net-(J5-Pin_1)": "power",
+<<<<<<< HEAD
+=======
+      "Net-(J6-Pin_1)": "power",
+>>>>>>> TP_ADD_PCB
       "Net-(Q1-B)": "signal",
       "Net-(Q1-E)": "power",
       "Net-(Q2-B)": "signal",
       "Net-(Q3-E)": "power",
+<<<<<<< HEAD
       "Net-(R10-Pad2)": "signal",
       "Net-(R12-Pad1)": "signal",
+=======
+      "Net-(R10-Pad1)": "signal",
+      "Net-(R10-Pad2)": "signal",
+      "Net-(R12-Pad1)": "signal",
+      "Net-(R12-Pad2)": "signal",
+      "Net-(R14-Pad1)": "signal",
+>>>>>>> TP_ADD_PCB
       "Net-(R15-Pad2)": "signal",
       "Net-(R16-Pad1)": "signal",
       "Net-(R16-Pad2)": "signal",
@@ -548,9 +564,18 @@
       "Net-(R18-Pad2)": "signal",
       "Net-(R19-Pad2)": "signal",
       "Net-(R2-Pad2)": "signal",
+<<<<<<< HEAD
       "Net-(R20-Pad2)": "signal",
       "Net-(R21-Pad2)": "signal",
       "Net-(R22-Pad2)": "signal",
+=======
+      "Net-(R20-Pad1)": "signal",
+      "Net-(R20-Pad2)": "signal",
+      "Net-(R21-Pad2)": "signal",
+      "Net-(R22-Pad2)": "signal",
+      "Net-(R23-Pad2)": "signal",
+      "Net-(R24-Pad2)": "signal",
+>>>>>>> TP_ADD_PCB
       "Net-(R3-Pad2)": "signal",
       "Net-(R4-Pad2)": "signal",
       "Net-(R5-Pad2)": "signal",
@@ -691,6 +716,13 @@
       {
         "netclass": "signal",
         "pattern": "/<NO NET>"
+<<<<<<< HEAD
+=======
+      },
+      {
+        "netclass": "power",
+        "pattern": "VCC"
+>>>>>>> TP_ADD_PCB
       }
     ]
   },
