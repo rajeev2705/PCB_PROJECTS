@@ -541,6 +541,7 @@
       "Net-(Q1-E)": "power",
       "Net-(Q2-B)": "signal",
       "Net-(Q3-E)": "power",
+      "Net-(Q8-B)": "signal",
       "Net-(R10-Pad1)": "signal",
       "Net-(R10-Pad2)": "signal",
       "Net-(R12-Pad1)": "signal",
@@ -559,6 +560,7 @@
       "Net-(R22-Pad2)": "signal",
       "Net-(R23-Pad2)": "signal",
       "Net-(R24-Pad2)": "signal",
+      "Net-(R28-Pad2)": "signal",
       "Net-(R3-Pad2)": "signal",
       "Net-(R4-Pad2)": "signal",
       "Net-(R5-Pad2)": "signal",
@@ -703,6 +705,18 @@
       {
         "netclass": "power",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/AC-"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/AC+"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/ACL+"
       }
     ]
   },
