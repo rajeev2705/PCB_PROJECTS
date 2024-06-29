@@ -548,9 +548,13 @@
       "Net-(Q2-B)": "signal",
       "Net-(Q3-E)": "power",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Net-(R10-Pad2)": "signal",
       "Net-(R12-Pad1)": "signal",
 =======
+=======
+      "Net-(Q8-B)": "signal",
+>>>>>>> recreate-branch
       "Net-(R10-Pad1)": "signal",
       "Net-(R10-Pad2)": "signal",
       "Net-(R12-Pad1)": "signal",
@@ -575,7 +579,11 @@
       "Net-(R22-Pad2)": "signal",
       "Net-(R23-Pad2)": "signal",
       "Net-(R24-Pad2)": "signal",
+<<<<<<< HEAD
 >>>>>>> TP_ADD_PCB
+=======
+      "Net-(R28-Pad2)": "signal",
+>>>>>>> recreate-branch
       "Net-(R3-Pad2)": "signal",
       "Net-(R4-Pad2)": "signal",
       "Net-(R5-Pad2)": "signal",
@@ -722,7 +730,22 @@
       {
         "netclass": "power",
         "pattern": "VCC"
+<<<<<<< HEAD
 >>>>>>> TP_ADD_PCB
+=======
+      },
+      {
+        "netclass": "power",
+        "pattern": "/AC-"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/AC+"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/ACL+"
+>>>>>>> recreate-branch
       }
     ]
   },
