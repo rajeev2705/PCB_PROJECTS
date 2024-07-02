@@ -131,7 +131,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -180,6 +180,7 @@
       "track_widths": [
         0.0,
         0.0,
+        0.2,
         0.5,
         0.8,
         1.4
@@ -536,6 +537,8 @@
       "Net-(J2-Pin_1)": "power",
       "Net-(J3-Pin_1)": "power",
       "Net-(J5-Pin_1)": "power",
+      "Net-(J6-D+)": "signal",
+      "Net-(J6-D-)": "signal",
       "Net-(J6-Pin_1)": "power",
       "Net-(Q1-B)": "signal",
       "Net-(Q1-E)": "power",
