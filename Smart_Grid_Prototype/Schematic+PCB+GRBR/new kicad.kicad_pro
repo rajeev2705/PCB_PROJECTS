@@ -720,6 +720,30 @@
       {
         "netclass": "power",
         "pattern": "/ACL+"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/CLK"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/CMD"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SD3"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SD2"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SD0"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/SD1"
       }
     ]
   },
