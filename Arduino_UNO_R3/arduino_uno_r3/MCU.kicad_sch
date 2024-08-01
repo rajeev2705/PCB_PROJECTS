@@ -6181,14 +6181,13 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SAMTEC_TSS-103-03-L-D"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
 			(at 110.998 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
