@@ -1682,6 +1682,26 @@
 		)
 		(uuid "fe2ae085-8f74-4368-b0a2-2b8d7e678837")
 	)
+	(text_box "NOTES FOR LED FLASHER USING 555 IC \nConnect a resistor (R1) between Vcc and Pin 7(DISCHARGE).\nConnect another resistor (R2) between Pin 7 and Pin 6(THRESHOLD).\n\nFrequency \n	𝑓=1.44/((𝑅1+2𝑅2)×𝐶1)\n \nDuty Cycle (D):\n	𝐷=𝑅1+𝑅2/(𝑅1+2𝑅2)\n"
+		(exclude_from_sim yes)
+		(at 15.24 16.51 0)
+		(size 54.61 24.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "95f059b2-2eea-4fbb-8330-a0641488b889")
+	)
 	(label "TR_2"
 		(at 182.88 95.25 0)
 		(fields_autoplaced yes)
