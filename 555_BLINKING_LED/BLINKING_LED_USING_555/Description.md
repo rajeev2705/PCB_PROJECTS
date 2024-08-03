@@ -16,7 +16,6 @@ This repository contains the design of a police LED flasher circuit using two 55
 
 ## Folder Structure
 - **/schematics:** Circuit diagrams and PCB layouts.
-- **/3d file:**3d model file and board design file.
 - **/bom:** Bill of materials listing all components.
 
 ## Schematic
