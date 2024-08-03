@@ -9,14 +9,14 @@ This repository contains the design of a police LED flasher circuit using two 55
 - **Simple Design:** Uses 555 timer ICs in astable mode to generate the flashing pattern.
 
 ## Components
-- **ICM7555xB:** Main timing ICs.
+- **7555xB:** Main timing ICs.
 - **Red and Blue LEDs:** Flash alternately.
 - **Resistors and Capacitors:** Set timing intervals.
 - **Connectors:** For power supply.
 
 ## Folder Structure
 - **/schematics:** Circuit diagrams and PCB layouts.
-- **/docs:** Additional documentation and datasheets.
+- **/3d file:**3d model file and board design file.
 - **/bom:** Bill of materials listing all components.
 
 ## Schematic
