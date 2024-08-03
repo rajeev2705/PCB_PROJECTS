@@ -512,6 +512,10 @@
       {
         "netclass": "signal",
         "pattern": "/THR_1"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/Q_1"
       }
     ]
   },
