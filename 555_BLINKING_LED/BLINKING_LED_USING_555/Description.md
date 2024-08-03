@@ -31,25 +31,20 @@ The circuit has three sections:
 
 ## Flash Interval Calculation
 The flash interval for the 555 timer in astable mode is given by:
-\[ t_{high} = 0.693 \times (R1 + R2) \times C \]
-\[ t_{low} = 0.693 \times R2 \times C \]
+
+- \( t_{high} = 0.693 \times (R1 + R2) \times C \)
+- \( t_{low} = 0.693 \times R2 \times C \)
 
 For example, with:
 - R1 = 1MΩ
 - R2 = 1MΩ
 - C = 1μF
 
-\[ t_{high} = 0.693 \times (1M + 1M) \times 1μF = 1.386 \text{ seconds} \]
-\[ t_{low} = 0.693 \times 1M \times 1μF = 0.693 \text{ seconds} \]
+- \( t_{high} = 0.693 \times (1M + 1M) \times 1μF = 1.386 \text{ seconds} \)
+- \( t_{low} = 0.693 \times 1M \times 1μF = 0.693 \text{ seconds} \)
 
 Thus, the total period \( T = t_{high} + t_{low} \approx 2.079 \text{ seconds} \) and the frequency \( f = \frac{1}{T} \approx 0.481 \text{ Hz} \).
 
 ## Notes
 - Ensure the power supply voltage is suitable for the components.
 - Adjust resistor and capacitor values to achieve desired flash rates.
-
-## License
-Specify the license (e.g., MIT License, GPLv3).
-
-## Acknowledgements
-Acknowledge any resources or libraries used.
