@@ -5,13 +5,13 @@
       "defaults": {
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
-        "apply_defaults_to_fp_text": true,
+        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
-        "copper_text_size_h": 0.5,
-        "copper_text_size_v": 0.5,
-        "copper_text_thickness": 0.1,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
@@ -26,15 +26,15 @@
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
-        "fab_text_size_h": 0.5,
-        "fab_text_size_v": 0.5,
-        "fab_text_thickness": 0.075,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
-        "other_text_size_h": 0.5,
-        "other_text_size_v": 0.5,
-        "other_text_thickness": 0.075,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
           "drill": 0.762,
@@ -43,21 +43,15 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.4,
-        "silk_text_size_v": 0.7,
-        "silk_text_thickness": 0.025,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -116,20 +110,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
-        "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.25,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.15,
-        "min_text_height": 0.4,
-        "min_text_thickness": 0.04,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
-        "min_via_annular_width": 0.2,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -145,10 +139,10 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
-          "td_maxheight": 1.0,
+          "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
@@ -156,10 +150,10 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
-          "td_maxheight": 1.0,
+          "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
@@ -167,19 +161,17 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
-          "td_maxheight": 1.0,
+          "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,12 +198,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -429,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -444,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BATTERY_MANAGEMENT_CIRCUIT.kicad_pro",
+    "filename": "USB_CHARGER.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -465,82 +452,14 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/CC1": "signal",
-      "/CC2": "signal",
-      "/VOUT": "signal",
-      "Net-(C1-Pad1)": "signal",
-      "Net-(J1-Pin_2)": "signal",
-      "Net-(J3-Pin_1)": "signal",
-      "Net-(J4-Pin_2)": "signal",
-      "Net-(J6-Pin_2)": "signal",
-      "Net-(U1-BAT)": "signal",
-      "Net-(U1-KEY)": "signal",
-      "Net-(U1-SW)": "signal",
-      "VCC": "signal"
-    },
-    "netclass_patterns": [
-      {
-        "netclass": "signal",
-        "pattern": "/LED1"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "/LED2"
-      },
-      {
-        "netclass": "power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "/LED3"
-      },
-      {
-        "netclass": "power",
-        "pattern": "VCC"
-      }
-    ]
+    "netclass_assignments": null,
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -550,7 +469,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BATTERY_MANAGEMENT_CIRCUIT.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -558,7 +477,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "bom\\BATTERY_MANAGEMENT_CIRCUIT.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -608,107 +527,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CUI_purchase_URL",
-          "name": "CUI_purchase_URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Purchase-URL",
-          "name": "Purchase-URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -740,6 +563,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -753,8 +584,16 @@
   },
   "sheets": [
     [
-      "331a7c19-dc29-4c39-b10d-7e761c1a62ed",
+      "e8640c3e-4bbe-4f68-b627-275cf1d6faa2",
       "Root"
+    ],
+    [
+      "52027401-101f-4203-a4b3-9e9a513b21ca",
+      "Untitled Sheet"
+    ],
+    [
+      "ffb3c739-bd90-4255-95a5-5dcd57366fed",
+      "Untitled Sheet2"
     ]
   ],
   "text_variables": {}
