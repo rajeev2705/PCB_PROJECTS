@@ -60,7 +60,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x00010f4_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -70,7 +70,7 @@
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
-			(plotframeref no)
+			(plotframeref yes)
 			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
@@ -90,9 +90,9 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -142,7 +142,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U1"
-			(at -1.27 2.647801 360)
+			(at -1.27 2.647801 0)
 			(layer "F.SilkS")
 			(uuid "21e664c9-12f2-4572-859c-da9f9d63f6c1")
 			(effects
@@ -153,7 +153,7 @@
 			)
 		)
 		(property "Value" "L7805"
-			(at 2.54 2.5 360)
+			(at 2.54 2.5 0)
 			(layer "F.Fab")
 			(uuid "a48ae4e3-bb81-4685-b70a-7b57d973125e")
 			(effects
@@ -388,7 +388,7 @@
 			(uuid "ac1b5909-1867-4cd1-990f-f28d3fd7f421")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -4.27 360)
+			(at 2.54 -4.27 0)
 			(layer "F.Fab")
 			(uuid "8cdd5d08-abc4-4b47-8fe6-a54bfd55286d")
 			(effects
@@ -791,7 +791,7 @@
 			)
 		)
 		(property "Value" "10uf/16V"
-			(at 1 3.75 360)
+			(at 1 3.75 0)
 			(layer "F.Fab")
 			(uuid "3c06c973-cb4b-4967-a890-cb18c8d977d7")
 			(effects
@@ -879,7 +879,7 @@
 			(uuid "1188a629-3aed-45c4-8452-8b74399592d8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 360)
+			(at 1 0 0)
 			(layer "F.Fab")
 			(uuid "1e1b041f-31d3-4d6b-801a-724eb5728614")
 			(effects
@@ -2196,7 +2196,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "c242e861-8a32-4691-91e5-1fd721a5e2c1")
 			(effects
@@ -2207,7 +2207,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "b3a55274-6696-4a97-8c04-3e31c3c9eb57")
 			(effects
@@ -2422,7 +2422,7 @@
 			(uuid "869d0303-0997-4a40-bafb-a3d1aa7c2d10")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "aa191660-0f2d-4817-a94f-cf56b52ccae9")
 			(effects
@@ -2493,7 +2493,7 @@
 		(descr "C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=5mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.00mm diameter 5mm height 5mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 1 3.556 360)
+			(at 1 3.556 0)
 			(layer "F.SilkS")
 			(uuid "a53128eb-7ef9-4503-9309-cfc9da686cd3")
 			(effects
@@ -2504,7 +2504,7 @@
 			)
 		)
 		(property "Value" "100uf/16V"
-			(at 1 3.75 360)
+			(at 1 3.75 0)
 			(layer "F.Fab")
 			(uuid "def87733-782c-4041-9045-61ebea47a284")
 			(effects
@@ -2592,7 +2592,7 @@
 			(uuid "8a227d07-4f75-428f-a007-56f696207e61")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 360)
+			(at 1 0 0)
 			(layer "F.Fab")
 			(uuid "aca57a35-8f1e-4589-b01c-85e2e7961ad2")
 			(effects
@@ -3112,7 +3112,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_Every"
-			(at 8.89 19.05 360)
+			(at 8.89 19.05 0)
 			(layer "F.Fab")
 			(uuid "d5333dba-6ab6-437b-8331-a22c1bee9b81")
 			(effects
@@ -3489,7 +3489,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.35 19.05 360)
+			(at 6.35 19.05 0)
 			(layer "F.Fab")
 			(uuid "0ae771c5-b355-4e93-9d9f-b03a27dee473")
 			(effects
@@ -4176,7 +4176,7 @@
 		(uuid "7c31e44e-3b6e-486d-a644-ccbb3cfc4419")
 		(at 120.777 61.976)
 		(property "Reference" "U2"
-			(at -3.429 -10.922 360)
+			(at -3.429 -10.922 0)
 			(layer "F.SilkS")
 			(uuid "aa926d63-deff-40ae-9859-c06d0e84d6a1")
 			(effects
@@ -4187,7 +4187,7 @@
 			)
 		)
 		(property "Value" "MAX30100 MODULE"
-			(at 5.715 5.28 360)
+			(at 5.715 5.28 0)
 			(layer "F.Fab")
 			(uuid "f872cd20-5a80-4aad-8f21-a0d986e6276c")
 			(effects
@@ -4198,7 +4198,7 @@
 			)
 		)
 		(property "Footprint" "Library:MAX30100_MODULE"
-			(at -0.4699 -12.9642 360)
+			(at -0.4699 -12.9642 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed9645ee-7198-4827-a679-430c86a4a253")
@@ -4210,7 +4210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -0.4699 -12.9642 360)
+			(at -0.4699 -12.9642 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7dfa8b05-5431-4554-ad05-ce67c17f537b")
@@ -4222,7 +4222,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -0.4699 -12.9642 360)
+			(at -0.4699 -12.9642 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ee5bb29-bcdd-4980-bc0e-f9f0db56abd1")
@@ -5040,7 +5040,7 @@
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1"
-			(at 3.81 -2.47 360)
+			(at 3.81 -2.47 0)
 			(layer "F.SilkS")
 			(uuid "65c5bf7f-22a0-4895-b235-bc0ff62c1fac")
 			(effects
@@ -5051,7 +5051,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 3.81 2.47 360)
+			(at 3.81 2.47 0)
 			(layer "F.Fab")
 			(uuid "95810ffd-b9f9-485e-92b8-0348b5a92ff1")
 			(effects
@@ -5352,7 +5352,7 @@
 			(uuid "4544d9b3-aeb5-4e6b-8c38-00c032ee8499")
 		)
 		(fp_text user "K"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "F.SilkS")
 			(uuid "830882c3-5472-4136-b71d-d89b46ec2b3c")
 			(effects
@@ -5363,7 +5363,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.2 0 360)
+			(at 4.2 0 0)
 			(layer "F.Fab")
 			(uuid "23a43eb8-220d-4ec0-b3fb-da04f132f7a1")
 			(effects
@@ -5374,7 +5374,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "F.Fab")
 			(uuid "fcb2e0e4-cd45-43e7-9a06-cbde6d050846")
 			(effects
@@ -6373,7 +6373,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "aabf8592-8e9e-4e4a-b303-ae01d12d4a85")
 			(effects
@@ -6384,7 +6384,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "71c1b84f-020d-428e-9745-4f4e2f8ba7b8")
 			(effects
@@ -6599,7 +6599,7 @@
 			(uuid "d19fedcf-62af-48fd-86bb-b2fd906189dd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "0bd9c58b-86bf-4a37-98de-3b6a30b2a7f5")
 			(effects
@@ -6670,7 +6670,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "25edd328-1d22-4532-bc8d-56a5f857dc0b")
 			(effects
@@ -6681,7 +6681,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "c0a27afd-4115-411c-8ebe-3bda3618c691")
 			(effects
@@ -6896,7 +6896,7 @@
 			(uuid "db12118a-bdd4-494d-9506-b13d022c2c60")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "c21b8193-00a6-45ee-8deb-daea36b8f85f")
 			(effects
@@ -7264,7 +7264,7 @@
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D2"
-			(at 1.27 -2.96 360)
+			(at 1.27 -2.96 0)
 			(layer "F.SilkS")
 			(uuid "371f2e38-cc61-455f-86a6-eae69ee0f976")
 			(effects
@@ -7275,7 +7275,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 2.96 360)
+			(at 1.27 2.96 0)
 			(layer "F.Fab")
 			(uuid "5baf3873-565a-481e-bdf8-a69e1a7c0fc0")
 			(effects
@@ -10588,7 +10588,10 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 52.3018 67.864) (xy 52.3018 67.264) (xy 51.3018 66.564) (xy 50.1008 67.564) (xy 51.3018 68.564)
+				(xy 51.309124 66.569127) (xy 52.29681 67.260507) (xy 52.301622 67.268059) (xy 52.3018 67.270092)
+				(xy 52.3018 67.857908) (xy 52.298373 67.866181) (xy 52.29681 67.867493) (xy 51.309124 68.558872)
+				(xy 51.300381 68.560809) (xy 51.294928 68.558278) (xy 50.4611 67.864) (xy 50.111597 67.57299) (xy 50.107432 67.565064)
+				(xy 50.110093 67.556514) (xy 50.111598 67.555009) (xy 51.294929 66.56972) (xy 51.303478 66.56706)
 			)
 		)
 	)
