@@ -9291,7 +9291,7 @@
 		(dnp no)
 		(uuid "072579d9-224d-45c6-a239-a4483b525d39")
 		(property "Reference" "D2"
-			(at 144.78 105.41 0)
+			(at 142.24 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9877,7 +9877,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "800R"
 			(at 264.16 175.26 90)
 			(effects
 				(font
@@ -11479,7 +11479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "2k"
 			(at 353.06 138.684 0)
 			(effects
 				(font
@@ -12170,7 +12170,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "2.2k"
 			(at 264.16 161.29 90)
 			(effects
 				(font
@@ -12455,7 +12455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "1R"
 			(at 353.06 164.084 0)
 			(effects
 				(font
@@ -14449,7 +14449,7 @@
 				)
 			)
 		)
-		(property "Value" "500R"
+		(property "Value" "1.8k"
 			(at 264.16 134.62 90)
 			(effects
 				(font
