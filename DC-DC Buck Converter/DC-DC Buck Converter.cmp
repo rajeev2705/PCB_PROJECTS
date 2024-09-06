@@ -1,0 +1,123 @@
+Cmp-Mod V01 Created by PcbNew   date = 2024-09-06T14:05:22+0530
+
+BeginCmp
+TimeStamp = 07e30256-7921-4518-bf91-765eb9789b46
+Path = /898706db-8f16-4f1a-bfe8-660e38a1f63e
+Reference = J2;
+ValeurCmp = IN-;
+IdModule  = Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 2a296494-989c-4916-89a8-422152873b54
+Path = /17ea93b2-0f7a-4131-bf03-2839aee22c61
+Reference = J3;
+ValeurCmp = Vout+;
+IdModule  = Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 3e8fd580-95c7-4d42-a7d3-f9abfa042275
+Path = 
+Reference = REF**;
+ValeurCmp = [NoVal];
+IdModule  = Library:PAD;
+EndCmp
+
+BeginCmp
+TimeStamp = 4925b89a-c47d-498d-8686-419b252f79c1
+Path = /8d43209a-fc25-4421-b38d-1a59a441a159
+Reference = L1;
+ValeurCmp = 33uH;
+IdModule  = Library:IND_SRP6540-1R0M;
+EndCmp
+
+BeginCmp
+TimeStamp = 5474e761-8fc8-4732-b0e3-c31dd3c31517
+Path = 
+Reference = REF**;
+ValeurCmp = PAD;
+IdModule  = Library:PAD;
+EndCmp
+
+BeginCmp
+TimeStamp = 66513934-7b34-4526-878f-781f2111fcab
+Path = /aa6d2a7a-7acc-4de5-9282-b91aac8d98d7
+Reference = R1;
+ValeurCmp = 1.21k;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 732a5158-4d97-4495-a2e6-0a703422670d
+Path = /d6dcb2eb-1f46-4659-bb76-2397655033c8
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = b6ecc846-ec2b-4791-bd8e-84663276e91b
+Path = /bc8d00e9-9a96-42d2-ab07-cbc8047aaff3
+Reference = J4;
+ValeurCmp = Vout-;
+IdModule  = Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = b9e499a8-7fa4-4f27-876d-b2a6ea54da11
+Path = /5019f954-4da1-4eed-a140-9af8731d25f3
+Reference = R2;
+ValeurCmp = 2.7K;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = bcf242e2-e4d7-41b1-9123-a5089e8a6a8d
+Path = /0a22dbd4-75db-461d-b6d5-e31f06c2d6af
+Reference = D1;
+ValeurCmp = 1N5824;
+IdModule  = Library:SCHOTTKYDIODE_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = bd1cdbf4-7147-419e-93d8-265ca1950bdf
+Path = /aee74976-fdd1-41bf-b2f7-f7f88bf828f7
+Reference = U1;
+ValeurCmp = LM2596S-5;
+IdModule  = Package_TO_SOT_SMD:TO-263-5_TabPin3;
+EndCmp
+
+BeginCmp
+TimeStamp = db2d5c24-1577-45e5-8402-e8da8716720e
+Path = /3c7f8e99-f86a-4eff-b330-049d5a57a61f
+Reference = C1;
+ValeurCmp = 680u;
+IdModule  = Library:CAP-SMD_BD6.3-L6.6-W6.6-FD;
+EndCmp
+
+BeginCmp
+TimeStamp = e0e68522-bd0a-4008-860c-a0798434498b
+Path = /18365193-e250-4d28-9f55-e84fa9d635b0
+Reference = J1;
+ValeurCmp = IN+;
+IdModule  = Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = e5a51443-b249-467e-90ce-211c8741c432
+Path = /2661cb84-0ef9-4e16-8d5f-5036a30a97d1
+Reference = C2;
+ValeurCmp = 220uf;
+IdModule  = Library:CAP-SMD_BD6.3-L6.6-W6.6-FD;
+EndCmp
+
+BeginCmp
+TimeStamp = f83f9e9f-cf5d-45d1-81ff-e8f4e9c20536
+Path = /a36ed78e-10d4-4f41-aa35-c6fdaa775c98
+Reference = RV1;
+ValeurCmp = 50k;
+IdModule  = Library:TrimPot_10k_SMD;
+EndCmp
+
+EndListe

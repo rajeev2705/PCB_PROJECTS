@@ -461,6 +461,53 @@
 				)
 			)
 		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0d8ff30e-6878-4f17-a99d-092f41237203")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e66db151-d977-47da-993a-418b29a7297c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2584b9d8-8114-491d-ad96-558c0d45b90b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f69a06e-99ad-4418-9df3-1be9690f3aca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr smd)
 		(pad "1" thru_hole circle
 			(at -11.425 1.9)
@@ -714,7 +761,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "143efb4a-5bab-49e4-9975-c9b307647076")
+			(uuid "8485ab71-a87b-4063-9aa6-ac78f590a46c")
 			(effects
 				(font
 					(size 1 1)
@@ -805,7 +852,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ec7da511-72dc-4c86-b1f4-4c50d1211ac7")
+			(uuid "4ae7c366-c169-4a10-b20d-5789288aacf5")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
