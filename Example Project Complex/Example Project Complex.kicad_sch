@@ -1,0 +1,221 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8ed38441-7d4e-4e89-870f-07e11c6dce38")
+	(paper "A4")
+	(title_block
+		(title "Reference PCB Template")
+		(date "2024-11-07")
+		(rev "1.0")
+		(company "RK Design")
+	)
+	(lib_symbols)
+	(text "DF_ESC_rev01_1\n"
+		(exclude_from_sim no)
+		(at 152.4 21.59 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "e6acaaa8-8ac8-4c9a-8b24-1ce3681af9eb")
+	)
+	(sheet
+		(at 78.74 39.37)
+		(size 29.21 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16faed82-55cc-4ae9-9b9b-c350fce14c7f")
+		(property "Sheetname" "MCU"
+			(at 78.74 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 78.74 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example Project Complex"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 39.37)
+		(size 30.48 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30754da3-3fef-43a8-8fa0-1814f6a7792c")
+		(property "Sheetname" "MOSFETs"
+			(at 147.32 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mosfets.kicad_sch"
+			(at 147.32 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example Project Complex"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 39.37)
+		(size 30.48 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a842a86a-6a5b-4ef7-ae67-dd5ab23cccea")
+		(property "Sheetname" "Filters"
+			(at 181.61 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Filters.kicad_sch"
+			(at 181.61 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example Project Complex"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 39.37)
+		(size 30.48 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e65fe3ef-20a3-4f05-b7b9-5f148f4423b0")
+		(property "Sheetname" "MOSFET DRIVER"
+			(at 113.03 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mosfet Driver.kicad_sch"
+			(at 113.03 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example Project Complex"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 39.37)
+		(size 30.48 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "faaf759a-2833-41d5-949b-3db3d7208d3b")
+		(property "Sheetname" "CAN"
+			(at 217.17 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 217.17 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Example Project Complex"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
