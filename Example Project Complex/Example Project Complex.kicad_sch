@@ -39,7 +39,8 @@
 			(at 78.74 38.6584 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -77,7 +78,8 @@
 			(at 147.32 38.6584 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -115,7 +117,8 @@
 			(at 181.61 38.6584 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -153,7 +156,8 @@
 			(at 113.03 38.6584 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -191,7 +195,8 @@
 			(at 217.17 38.6584 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
+					(bold yes)
 				)
 				(justify left bottom)
 			)

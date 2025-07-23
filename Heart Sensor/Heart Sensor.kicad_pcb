@@ -7532,6 +7532,19 @@
 		(layer "Edge.Cuts")
 		(uuid "1d0effc8-3341-427d-b242-9f1ddb8f4184")
 	)
+	(gr_text "HEART SENSOR PRODUCT"
+		(at 49.35 50.4 0)
+		(layer "F.SilkS")
+		(uuid "31681f42-3591-4442-a418-e860c36a9a8b")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 81.534 66.548)
 		(end 93.218 66.548)
